@@ -1,1 +1,11 @@
 
+//package.json { 
+    "name": "gbut-application",
+    "version": "1.0.0",
+    "description": "It's our first application",
+    "author": "GBUT ",
+    "dependencies": { 
+         "express": "4.*",
+         "jade": "1.9.*" 
+    }
+}
