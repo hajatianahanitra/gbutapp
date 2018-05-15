@@ -23,9 +23,12 @@ app.use(connect.urlencoded());
 app.use(connect.bodyParser());
 */
 
-require('./routes/routes.js')(app);
+//require('./routes/routes.js')(app);
 
 
+app.get('/', function(req, res) {
+		res.end("salu"); 
+	});
 
 
 app.listen(port);
