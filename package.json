@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hajatianahanitra/parcauto.git"
+    "url": "git+https://github.com/hajatianahanitra/gbutapp.git"
   },
   "keywords": [],
   "author": "Hajatiana",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hajatianahanitra/parcauto/issues"
+    "url": "https://github.com/hajatianahanitra/gbutapp/issues"
   },
-  "homepage": "https://github.com/hajatianahanitra/parcauto#readme",
+  "homepage": "https://github.com/hajatianahanitra/gbutapp#readme",
   "dependencies": {
     "express": "^4.15.4"
   },
