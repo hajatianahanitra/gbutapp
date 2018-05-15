@@ -12,7 +12,7 @@ module.exports = function(app) {
 //var jsonParser = bodyParser.json({ type: 'application/*+json' } );
 
 app.get('/', function(req, res) {
-		res.end(""); 
+		res.end("salu"); 
 	});
 
 
