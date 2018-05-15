@@ -1,0 +1,20 @@
+   {
+	   "name": "gbut-application",
+		"version": "1.0.0",
+		"description": "It's our first application",
+		"main" : "server.js",
+			"scripts": { 
+	     "test": "echo \"Error: no test specified\" && exit 1", 
+	     "start": "node server.js" 
+	   }, 
+	   "author": "GBUT ",
+		"dependencies": { 
+			 "express": "4.*",
+			 "jade": "1.9.*" 
+		},
+		"repository": { 
+10     	"type": "git", 
+11     	"url": "git+https://github.com/hajatianahanitra/gbutapp.git" 
+12   	}, 
+	}
+
