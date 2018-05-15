@@ -1,9 +1,9 @@
-var chgpass = require('config/chgpass');
-var register = require('config/register');
-var login = require('config/login');
-var liste = require('config/liste');
-var recherche = require('config/recherche');
-var ajout = require('config/ajout');
+//var chgpass = require('config/chgpass');
+//var register = require('config/register');
+//var login = require('config/login');
+//var liste = require('config/liste');
+//var recherche = require('config/recherche');
+//var ajout = require('config/ajout');
 var bodyParser = require('body-parser')
 
 module.exports = function(app) {
@@ -16,14 +16,11 @@ app.get('/', function(req, res) {
 	});
 
 
-	app.get('/login/:email/:password',function(req,res){
+	/*app.get('/login/:email/:password',function(req,res){
 		var email = req.params.email;
         	var password = req.params.password;
 
-		/*login.login(email,password,function (found) {
-			console.log(found);
-			res.send(found);
-	});*/
+		
 res.send(email+" , "+password);
 	});
 
@@ -32,9 +29,7 @@ res.send(email+" , "+password);
 	console.log(req.body.email+"jjj"+req.body.password);
 			var email = req.body.email;
         	var password = req.body.password;
-			/*	liste.sinscrire(email,password,function (found) {
-			res.send(found);
-		});*/
+			
 res.send(email+" , "+password);
 	});
 	app.post('/modifieruser',function(req,res){
@@ -192,7 +187,7 @@ app.get('/listenotifications', function(req, res) {
 			
 		});
 	});
-	
+	*/
 
 	
 };
