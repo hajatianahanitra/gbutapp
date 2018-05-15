@@ -1,6 +1,4 @@
-
-//package.json { 
-    "name": "gbut-application",
+   "name": "gbut-application",
     "version": "1.0.0",
     "description": "It's our first application",
     "author": "GBUT ",
@@ -8,4 +6,3 @@
          "express": "4.*",
          "jade": "1.9.*" 
     }
-}
