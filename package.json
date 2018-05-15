@@ -1,8 +1,11 @@
-   "name": "gbut-application",
-    "version": "1.0.0",
-    "description": "It's our first application",
-    "author": "GBUT ",
-    "dependencies": { 
-         "express": "4.*",
-         "jade": "1.9.*" 
-    }
+   {
+	   "name": "gbut-application",
+		"version": "1.0.0",
+		"description": "It's our first application",
+		"main" : "server.js"
+	   "author": "GBUT ",
+		"dependencies": { 
+			 "express": "4.*",
+			 "jade": "1.9.*" 
+		}
+	}
