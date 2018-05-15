@@ -4,12 +4,12 @@
 //var liste = require('config/liste');
 //var recherche = require('config/recherche');
 //var ajout = require('config/ajout');
-var bodyParser = require('body-parser')
+//var bodyParser = require('body-parser')
 
 module.exports = function(app) {
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(bodyParser.json());
-var jsonParser = bodyParser.json({ type: 'application/*+json' } );
+//app.use(bodyParser.urlencoded({extended: false}));
+//app.use(bodyParser.json());
+//var jsonParser = bodyParser.json({ type: 'application/*+json' } );
 
 app.get('/', function(req, res) {
 		res.end(""); 
